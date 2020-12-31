@@ -13,14 +13,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipSegControl: UISegmentedControl!
+    @IBOutlet weak var totalView: UIView!
     
     // Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        billTextField.becomeFirstResponder()
         
         // Makes total a round label
-        totalLabel.layer.cornerRadius = (totalLabel.frame.width/2)
+        // totalLabel.layer.cornerRadius = (totalLabel.frame.width/2)
     }
 
 
