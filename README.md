@@ -4,7 +4,7 @@
 
 Submitted by: **Jimmy Trinh**
 
-Time spent: **5** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
@@ -23,6 +23,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [ ] Starting bill amount page, which goes to total after input. Can go back and forth after.
+- [x] Clean up UI with graphics, font, and color changes.
 
 ## Video Walkthrough
 
