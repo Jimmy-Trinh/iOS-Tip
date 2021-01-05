@@ -4,7 +4,7 @@
 
 Submitted by: **Jimmy Trinh**
 
-Time spent: **3** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
@@ -18,23 +18,27 @@ The following **optional** features are implemented:
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
 - [ ] Starting bill amount page, which goes to total after input. Can go back and forth after.
+- [x] Clean up UI with graphics, font, and color changes.
+- [ ] Settings page. Allows user to select default tip.
+- [ ] Dark mode option.
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[GIF](https://imgur.com/a/NmeRSdF.gif)
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+-Figuring out what first responders are and how to set them.
+-Trying to set up navigation controls to better clean up UI. (Work in progress)
 
 ## License
 
