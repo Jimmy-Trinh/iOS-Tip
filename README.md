@@ -29,8 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough:
 
-<img src='https://imgur.com/a/NmeRSdF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-https://imgur.com/a/NmeRSdF.gif
+[GIF] https://imgur.com/a/NmeRSdF.gif
 
 
 ## Notes
