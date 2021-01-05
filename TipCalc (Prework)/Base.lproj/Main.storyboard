@@ -80,7 +80,13 @@
                             <outletCollection property="gestureRecognizers" destination="G08-k6-HXp" appends="YES" id="x7L-6t-fQT"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tip!" id="T55-HX-hn9"/>
+                    <navigationItem key="navigationItem" title="Tip!" id="T55-HX-hn9">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="uN6-jC-tV6">
+                            <connections>
+                                <segue destination="9fH-cB-2pz" kind="push" id="6lb-SX-tVp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="billTextField" destination="9Wv-FM-s9k" id="C6f-bp-v2R"/>
                         <outlet property="tipLabel" destination="KRK-cy-790" id="Aiw-LE-p66"/>
@@ -96,6 +102,22 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="923.1884057971015" y="103.79464285714285"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="eFv-Ko-42Z">
+            <objects>
+                <viewController id="9fH-cB-2pz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DSM-Dl-Gb9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="k8F-cE-pym"/>
+                        <color key="backgroundColor" red="0.56305533649999995" green="0.98159474130000002" blue="0.41751629109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="upz-Er-Hf4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i9k-nu-6k0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1675" y="104"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8RT-eJ-cDR">
