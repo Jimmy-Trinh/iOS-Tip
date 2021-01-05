@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough:
 
-[GIF] https://imgur.com/a/NmeRSdF.gif
+[GIF](https://imgur.com/a/NmeRSdF.gif)
 
 
 ## Notes
