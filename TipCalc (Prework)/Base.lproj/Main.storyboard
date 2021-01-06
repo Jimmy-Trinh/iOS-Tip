@@ -110,18 +110,51 @@
         <!--Settings-->
         <scene sceneID="eFv-Ko-42Z">
             <objects>
-                <viewController id="9fH-cB-2pz" sceneMemberID="viewController">
+                <viewController id="9fH-cB-2pz" customClass="SettingsViewController" customModule="TipCalc__Prework_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DSM-Dl-Gb9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Default Tip Amount:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJp-cv-gBm">
+                                <rect key="frame" x="20" y="171" width="215" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cmo-4r-WNc">
+                                <rect key="frame" x="20" y="208" width="297" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.56305533649999995" green="0.98159474130000002" blue="0.41751629109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <segments>
+                                    <segment title="15%"/>
+                                    <segment title="18%"/>
+                                    <segment title="20%"/>
+                                </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="selectedSegmentTintColor" red="0.1309911966" green="0.57029226040000003" blue="0.11597808079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DarkMode Icon" translatesAutoresizingMaskIntoConstraints="NO" id="K5j-o2-48f">
+                                <rect key="frame" x="175" y="441" width="30" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ehH-1N-amD">
+                                <rect key="frame" x="213" y="441" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="k8F-cE-pym"/>
                         <color key="backgroundColor" red="0.56305533649999995" green="0.98159474130000002" blue="0.41751629109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="upz-Er-Hf4"/>
+                    <connections>
+                        <outlet property="settingsTipSegControl" destination="cmo-4r-WNc" id="aLp-rV-ogq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i9k-nu-6k0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1675" y="104"/>
+            <point key="canvasLocation" x="1673.913043478261" y="103.79464285714285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8RT-eJ-cDR">
@@ -144,5 +177,6 @@
     </scenes>
     <resources>
         <image name="Background" width="641" height="360"/>
+        <image name="DarkMode Icon" width="512" height="512"/>
     </resources>
 </document>
