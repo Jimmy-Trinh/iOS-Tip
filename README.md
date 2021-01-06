@@ -24,8 +24,9 @@ The following **additional** features are implemented:
 
 - [ ] Starting bill amount page, which goes to total after input. Can go back and forth after.
 - [x] Clean up UI with graphics, font, and color changes.
-- [ ] Settings page. Allows user to select default tip.
-- [ ] Dark mode option.
+- [x] Settings page. 
+- [ ] Allow user to select default tip.
+- [ ] Dark mode functionality.
 
 ## Video Walkthrough
 
