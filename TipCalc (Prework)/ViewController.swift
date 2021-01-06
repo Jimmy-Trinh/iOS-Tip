@@ -30,6 +30,11 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
+    @IBAction func onTapTipLabel(_ sender: Any) {
+        
+    }
+    
+    
     //  When an edit is made to billTextField
     @IBAction func calculateTip(_ sender: Any) {
         // Get initial bill amount
@@ -46,6 +51,6 @@ class ViewController: UIViewController {
         totalLabel.text = String(format: "$%.2f", total)
     }
     
-    
+
 }
 
