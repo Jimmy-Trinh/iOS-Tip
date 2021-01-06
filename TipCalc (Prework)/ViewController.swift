@@ -7,9 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     // Outlets
-    @IBOutlet weak var billTextField: UITextField!
+    @IBOutlet weak var billTextField: ShakingTextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipSegControl: UISegmentedControl!
@@ -20,18 +20,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         billTextField.becomeFirstResponder()
+        billTextField.delegate = self
+        
         
         // Makes total a round label
         // totalLabel.layer.cornerRadius = (totalLabel.frame.width/2)
     }
-
-
-    @IBAction func onTap(_ sender: Any) {
-        view.endEditing(true)
-    }
     
-    @IBAction func onTapTipLabel(_ sender: Any) {
-        
+    
+    @IBAction func onTap(_ sender: Any) {
+        billTextField.shake()
+        view.endEditing(true)
     }
     
     

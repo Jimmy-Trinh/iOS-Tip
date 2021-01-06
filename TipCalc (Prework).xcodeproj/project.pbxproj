@@ -16,6 +16,7 @@
 		F47568D1259D5432007548B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47568CF259D5432007548B2 /* LaunchScreen.storyboard */; };
 		F47568DC259D5432007548B2 /* TipCalc__Prework_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47568DB259D5432007548B2 /* TipCalc__Prework_Tests.swift */; };
 		F47568E7259D5432007548B2 /* TipCalc__Prework_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47568E6259D5432007548B2 /* TipCalc__Prework_UITests.swift */; };
+		F4BD5FCE25A5B09B00F39A05 /* ShakingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD5FCD25A5B09B00F39A05 /* ShakingTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F47568E2259D5432007548B2 /* TipCalc (Prework)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TipCalc (Prework)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47568E6259D5432007548B2 /* TipCalc__Prework_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalc__Prework_UITests.swift; sourceTree = "<group>"; };
 		F47568E8259D5433007548B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BD5FCD25A5B09B00F39A05 /* ShakingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakingTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				F47568C6259D542F007548B2 /* SceneDelegate.swift */,
 				F47568C8259D542F007548B2 /* ViewController.swift */,
 				F47568CA259D542F007548B2 /* Main.storyboard */,
+				F4BD5FCD25A5B09B00F39A05 /* ShakingTextField.swift */,
 				F472F68425A4666000C786DA /* SettingsViewController.swift */,
 				F47568CD259D5432007548B2 /* Assets.xcassets */,
 				F47568CF259D5432007548B2 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F47568C9259D542F007548B2 /* ViewController.swift in Sources */,
+				F4BD5FCE25A5B09B00F39A05 /* ShakingTextField.swift in Sources */,
 				F47568C5259D542F007548B2 /* AppDelegate.swift in Sources */,
 				F47568C7259D542F007548B2 /* SceneDelegate.swift in Sources */,
 				F472F68525A4666000C786DA /* SettingsViewController.swift in Sources */,
