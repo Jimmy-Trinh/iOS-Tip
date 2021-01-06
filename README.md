@@ -4,7 +4,7 @@
 
 Submitted by: **Jimmy Trinh**
 
-Time spent: **6** hours spent in total
+Time spent: **9** hours spent in total
 
 ## User Stories
 
@@ -15,7 +15,7 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [ ] UI animations
+* [x] UI animations (added shake animation if tapping anywhere not editable)
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
@@ -38,7 +38,8 @@ Here's a walkthrough:
 
 Describe any challenges encountered while building the app.
 -Figuring out what first responders are and how to set them.
--Trying to set up navigation controls to better clean up UI. (Work in progress)
+-Trying to set up navigation controls to better clean up UI. 
+-Being very confused about user defaults and how to use them across multiple screens.
 
 ## License
 
